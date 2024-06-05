@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "e-wallet-balance"
+  description: "personal e-wallet balance"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/e-wallet-balance"
+    argocd/app-name: "e-wallet-balance"
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://e-wallet-balance.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
