@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/e-wallet-balance
-  tag: 8ff3e8d8572cdfebf94afbd9a7b2622fad2abd04
+  tag: ca6789b38804296a7bdcb74454e0d822bc412c2b
   pullPolicy: Always
 
 service:
